@@ -1,0 +1,25 @@
+#side-bar{
+    float:left;
+    background:rgb(31, 31, 31);
+    padding:55px;
+    border-radius:50px;
+    margin-left:10px;
+}
+
+body{
+    text-align:center;
+}
+
+h1{
+    font-family:"Cedarville Cursive", cursive;
+    color:skyblue;
+}
+
+canvas{
+    border: 5px solid black;
+    border-radius:10px;
+}
+
+button{
+    background:rgb(31, 31, 31)
+}

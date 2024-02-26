@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Image Creator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <script src="fabric.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Image Creator</h1>
+        <div id="side-bar">
+            <button onclick="upload('leaf.webp')"><img src="leaf.webp" height="150px" width="150px"></button>
+            <button onclick="upload('skateboard.webp')"><img src="skateboard.webp" height="150px" width="150px"></button>
+            <br>
+            <button onclick="upload('bird.webp')"><img src="bird.webp" height="150px" width="150px"></button>
+            <button onclick="upload('triangle_pattern.webp')"><img src="triangle_pattern.webp" height="150px" width="150px"></button>
+            <br>
+            <button onclick="upload('sun.webp')"><img src="sun.webp" height="150px" width="150px"></button>
+            <button onclick="upload('flowers.webp')"><img src="flowers.webp" height="150px" width="150px"></button>
+        </div>
+        <canvas height="500px" width="500px" id="myCanvas"></canvas>
+    </body>
+</html>
